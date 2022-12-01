@@ -11,8 +11,8 @@ app.get("/", async (req, res) => {
 
 app.post("/payments", async (req, res) => {
   var instance = new Razorpay({
-    key_id: "rzp_test_O50hljpcNkdZdB",
-    key_secret: "dmSbTisM4Dlv0xaEcQEyy3pI",
+    key_id: "rzp_b_id_test_yut",
+    key_secret: "rzp_b_id_test_yut",
   });
 
   let { amount } = req.body;
